@@ -16,3 +16,17 @@ Required Packages for Client if you want to create app for Testing like GrpcServ
 install Proto buffer compiler in windows :
 winget install protobuf
 
+=====================================
+
+The logging will now capture:
+All operations (Create, Read, Update, Delete)
+Input validation failures
+Service errors
+Client errors
+Connection issues
+Unexpected exceptions
+The logs will be written to:
+Console (for immediate feedback)
+Daily rolling log files:
+Service logs: logs/service-YYYYMMDD.log
+Client logs: logs/client-YYYYMMDD.log
