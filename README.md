@@ -32,3 +32,9 @@ The logs will be written to:
 - Daily rolling log files:
 - Service logs: logs/service-YYYYMMDD.log
 - Client logs: logs/client-YYYYMMDD.log
+
+Logging Strategy:
+- Information logs for successful operations
+- Warning logs for business rule violations
+- Error logs for unexpected exceptions
+- Structured logging with context (IDs, names, etc.)
