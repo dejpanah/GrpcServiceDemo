@@ -25,7 +25,8 @@ The logging will now capture:
 - Client errors
 -Connection issues
 - Unexpected exceptions
-- 
+
+  
 The logs will be written to:
 - Console (for immediate feedback)
 - Daily rolling log files:
